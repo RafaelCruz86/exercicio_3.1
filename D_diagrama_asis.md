@@ -11,6 +11,7 @@ flowchart TD
     TI1["TI TRT18\nportal"] --> E1
     PJe1["PJe · hospedagem"] --> E1
     E1["E1 · Acesso ao Portal\ntrt18.jus.br — aba Contato"]
+    E1 -.-> FP6(["⚠️ FP6 · Link inoperante\ncanal ausente no portal\nE1 · Todos os canais"])
 
     %% ── E2: Seleção de Canal ──────────────────────────────────────────
     E1 --> E2{"E2 · Seleção de Canal"}
@@ -69,6 +70,7 @@ flowchart TD
 
     %% ── Convergência no Desfecho Final ────────────────────────────────
     BV5 & CEL5 & PID5 & TRP5 & BVL5 --> FINAL[/"Desfecho Final\nProtocolo emitido · Informação obtida\nou Encaminhamento confirmado"/]
+    FINAL -.-> FP7(["⚠️ FP7 · Sem confirmação escrita\ndesfecho só verbal\nE5 · BV/PID/TRP/BVL"])
 
     %% ── Estilos ───────────────────────────────────────────────────────
     classDef etapa    fill:#dbeafe,stroke:#2563eb,color:#1e3a5f
@@ -78,7 +80,7 @@ flowchart TD
 
     class E1,E2,BV3,BV4,BV5,CEL3,CEL4,CEL5,PID3,PID4,PID5,TRP3,TRP4,TRP5,BVL3,BVL4,BVL5 etapa
     class TI1,PJe1,PJe,BV_TI,CEL_PLAT,SGJ,TJGO,DSAI,GEST,PNJIID suporte
-    class FP1,FP2,FP3,FP4,FP5 failpoint
+    class FP1,FP2,FP3,FP4,FP5,FP6,FP7 failpoint
     class FINAL desfecho
 ```
 
@@ -112,3 +114,5 @@ flowchart TD
 | FP3 Janela morta Libras | E3-BVL → saída tracejada | Balcão Visual |
 | FP4 Celeste imatura | E4-CEL → saída tracejada | Celeste/WhatsApp |
 | FP5 Fila opaca | E3-BV → saída tracejada | Balcão Virtual |
+| FP6 Link inoperante no portal | E1 → saída tracejada | Todos os canais |
+| FP7 Sem confirmação escrita | Desfecho Final → saída tracejada | BV / PID / TRP / BVL |
