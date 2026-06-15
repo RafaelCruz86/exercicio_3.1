@@ -4,7 +4,7 @@
 
 ## Índice
 
-- [A_meta_prompt.md.md](meta_prompt.md.md)
+- [A_meta_prompt.md](meta_prompt.md)
 - [B_relatorio_assistente_v1.md](relatorio_assistente_v1.md)
 - [B_relatorio_auditoria_v1.md](relatorio_auditoria_v1.md)
 - [B_relatorio_assistente_v2.md](relatorio_assistente_v2.md)
