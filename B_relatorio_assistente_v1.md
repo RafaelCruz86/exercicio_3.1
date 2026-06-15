@@ -12,7 +12,7 @@ O Balcão Virtual do TRT18 (Goiás) é um serviço de videoconferência (princip
 
 - **Portaria Reguladora Interna**: PORTARIA TRT 18ª SGP/SGJ Nº 414/2021 (17/03/2021). Define operação similar ao presencial (exceto peticionamento), uso prioritário de Google Meet (com fallback para Zoom ou outros), vestimenta adequada, fundo institucional. Atendente deve chamar especialista se necessário ou agendar. Não se aplica a gabinetes de magistrados.
 
-- **Integração com Outros Canais**: Celeste (WhatsApp principal 62 3222-5000) atua como front omnichannel, direcionando para Balcão Virtual ou setores. Atermação (62 3222-5570 / atermacao@trt18.jus.br) é canal específico para ações verbais.
+- **Integração com Outros Canais**) atua como front omnichannel, direcionando para Balcão Virtual ou setores. Atermação (62 3222-5570 / atermacao@trt18.jus.br) é canal específico para ações verbais.
 
 **Lacuna**: Poucos detalhes públicos sobre escalas internas de servidores, regras exatas de triagem na Celeste, ou organograma preciso de responsabilidades (TI/Celeste vs. varas vs. PID). Organograma geral disponível, mas não específico para o serviço.
 
@@ -32,7 +32,7 @@ O Balcão Virtual do TRT18 (Goiás) é um serviço de videoconferência (princip
 
 - **Portal**: Ícones por unidade na página Contato; links diretos para Zoom. Formulário alternativo (Google Forms mencionado em alguns contextos).
 
-- **Celeste**: Bot/omnichannel via WhatsApp 62 3222-5000; integra canais e direciona (lançada ~2026).
+- **Celeste**; integra canais e direciona (lançada ~2026).
 
 - **Balcão Visual (Libras)**: Parceria com TRT15 (Campinas). Acessível via aba Contato; atendimento com intérprete. Horários limitados (ex.: 12h-16h em modelos semelhantes).
 
