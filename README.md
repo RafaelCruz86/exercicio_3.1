@@ -4,12 +4,12 @@
 
 ## Índice
 
-- [meta_prompt.md.md](meta_prompt.md.md)
-- [relatorio_assistente_v1.md](relatorio_assistente_v1.md)
-- [relatorio_auditoria_v1.md](relatorio_auditoria_v1.md)
-- [relatorio_assistente_v2.md](relatorio_assistente_v2.md)
-- [relatorio_auditoria_v2.md](relatorio_auditoria_v2.md)
-- [relatorio_assistente_v3.md](relatorio_assistente_v3.md)
-- [grill_transcript.md](grill_transcript.md)
-- [blueprint_asis.md](blueprint_asis.md)
-- [diagrama_asis.md](diagrama_asis.md)
+- [A_meta_prompt.md.md](meta_prompt.md.md)
+- [B_relatorio_assistente_v1.md](relatorio_assistente_v1.md)
+- [B_relatorio_auditoria_v1.md](relatorio_auditoria_v1.md)
+- [B_relatorio_assistente_v2.md](relatorio_assistente_v2.md)
+- [B_relatorio_auditoria_v2.md](relatorio_auditoria_v2.md)
+- [B_relatorio_assistente_v3.md](relatorio_assistente_v3.md)
+- [C_grill_transcript.md](grill_transcript.md)
+- [C_blueprint_asis.md](blueprint_asis.md)
+- [D_diagrama_asis.md](diagrama_asis.md)
